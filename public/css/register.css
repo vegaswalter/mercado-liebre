@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    width: 100%;
+}
+
+main {
+    width: 100%;
+}
+
+.form {
+    padding-top: 40px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.form1 {
+    padding-top: 40px;
+    width: 90%;
+    margin: 0 auto;
+    height: 80vh;
+}
+
+.input-hijo input {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 7px;
+    background-color: white;
+}
+
+.input-hijo1 input {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 7px;
+}
+
+.subtitulo {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.subtitulo-contaseña {
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.com-ven input {
+    margin-right: 15px;
+}
+
+.com-ven span {
+    margin-right: 15px;
+}
+
+.intereses {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.intereses input {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.intereses-texto {
+    margin-left: 10px;
+}
+
+.boton-enviar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#boton:hover {
+    color: #fff;
+    background-color: #0022AA;
+}
+
+.boton-enviar button {
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+@media (min-width: 960px) {
+
+    main {
+        text-align: center;
+    }
+
+    .input-hijo input {
+        max-width: 800px;
+    }
+
+    .input-hijo1 input {
+        max-width: 800px;
+    }
+
+    main .int {
+        margin: 0 auto;
+        max-width: 800px;
+        text-align: left;
+    }
+
+    main .com-ven {
+        margin: 0 auto;
+        max-width: 800px;
+        text-align: left;
+    }
+
+}
