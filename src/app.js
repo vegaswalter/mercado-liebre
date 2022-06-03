@@ -4,8 +4,10 @@ const app = express();
 
 
 // Servidor
-app.listen(3000, () => {
-    console.log("El servidor esta funcionando")
+const port = process.env.PORT || 8080;
+
+app.listen(port, () => {
+    console.log(`http://localhost:${port}`);
 });
 
 // Rutas
