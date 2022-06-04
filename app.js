@@ -5,7 +5,7 @@ const app = express();
 
 // Servidor
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 8080;
 
 app.listen(port, () => {
     console.log(`http://localhost:${port}`);
@@ -31,6 +31,6 @@ app.post("/datos", (req, res) => {
 
 
 // Archivos static
-app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static(path.join(__dirname, './public')));
 
 app.use(express.urlencoded({extended:false}))
